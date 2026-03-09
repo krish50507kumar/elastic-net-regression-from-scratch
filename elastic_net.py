@@ -4,7 +4,7 @@ import pickle
 class ElasticNet:
     def __init__(self,training_input,real_output,test_percent,learning_rate=0.001):
         # basic info
-        np.random.seed(seed)
+        np.random.seed(42)
         self.test_percent=test_percent
         self.train_percent=100-self.test_percent
         self.learning_rate=learning_rate
