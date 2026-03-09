@@ -1,3 +1,6 @@
+import numpy as np
+import pandas as pd
+import pickle
 class ElasticNet:
     def __init__(self,training_input,real_output,test_percent,learning_rate=0.001):
         # basic info
